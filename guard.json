@@ -1,0 +1,64 @@
+{
+  "fetched_at": "2026-07-22T19:46:26",
+  "source": "guard.php",
+  "status": "clean",
+  "error": null,
+  "scan_time": "2026-07-22 10:46",
+  "scan_path": "/home1/dolbom/public_html",
+  "files_scanned": 70,
+  "suspect": [],
+  "random_named": [],
+  "recent_changed": [
+    {
+      "time": "2026-07-22 09:53",
+      "path": "/ingest.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-22 09:03",
+      "path": "/disease_pages.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-21 17:18",
+      "path": "/ai.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-21 16:11",
+      "path": "/_gen/generate.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-21 15:53",
+      "path": "/_gen/settings.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-21 04:32",
+      "path": "/api/facility_grade.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-20 21:40",
+      "path": "/시설랭킹.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-20 20:02",
+      "path": "/api/corrections.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-20 14:12",
+      "path": "/api/funeral.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-20 14:11",
+      "path": "/api/posts.php",
+      "known": true
+    }
+  ],
+  "unknown_changed_count": 1
+}
