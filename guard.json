@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-07-24T15:39:13",
+  "fetched_at": "2026-07-26T16:19:20",
   "source": "guard.php",
   "status": "suspect:6",
   "error": null,
-  "scan_time": "2026-07-24 06:39",
+  "scan_time": "2026-07-26 07:19",
   "scan_path": "/home1/dolbom/public_html",
-  "files_scanned": 87,
+  "files_scanned": 98,
   "suspect": [
     "[  3] /api/family.php",
     "→ base64_decode\\s*\\(/i×1",
@@ -17,115 +17,95 @@
   "random_named": [],
   "recent_changed": [
     {
-      "time": "2026-07-24 05:20",
-      "path": "/worker_pages.php",
+      "time": "2026-07-25 12:28",
+      "path": "/staff_stats.php",
       "known": false
     },
     {
-      "time": "2026-07-24 05:20",
-      "path": "/handle.php",
+      "time": "2026-07-25 12:28",
+      "path": "/sitemap.php",
       "known": false
     },
     {
-      "time": "2026-07-24 05:20",
-      "path": "/facility_pages.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-24 05:19",
-      "path": "/api/worker.php",
+      "time": "2026-07-25 12:28",
+      "path": "/api/sigungu_codes.php",
       "known": true
     },
     {
-      "time": "2026-07-24 05:19",
+      "time": "2026-07-25 12:28",
+      "path": "/api/facilities.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-25 12:27",
+      "path": "/facility_profile.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-25 12:26",
+      "path": "/grades_stats.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-25 11:58",
+      "path": "/api/facility_grade.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-25 11:57",
+      "path": "/facilities.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-25 11:56",
+      "path": "/sigungu_codes.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-25 06:13",
+      "path": "/facility_grade.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-25 05:16",
+      "path": "/api/facilities_config.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-24 23:50",
+      "path": "/api/posts.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-24 22:46",
+      "path": "/disease_cron.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-24 22:46",
+      "path": "/disease.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-24 10:04",
       "path": "/api/facility.php",
       "known": true
     },
     {
-      "time": "2026-07-24 04:01",
+      "time": "2026-07-24 10:03",
+      "path": "/api/worker.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-24 08:21",
       "path": "/hub.php",
       "known": false
     },
     {
-      "time": "2026-07-24 02:46",
-      "path": "/api/family.php",
-      "known": true
-    },
-    {
-      "time": "2026-07-23 10:52",
-      "path": "/fix_cta.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-23 10:04",
-      "path": "/add_home_link.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-23 09:03",
-      "path": "/api/facility_notes.php",
-      "known": true
-    },
-    {
-      "time": "2026-07-23 09:01",
-      "path": "/jslog.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-23 06:08",
-      "path": "/rag_stats.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-23 06:08",
-      "path": "/rag_feedback.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-23 05:28",
-      "path": "/rag_embed_lib.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-23 05:28",
-      "path": "/rag_embed_build.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-23 05:28",
-      "path": "/ai_rag.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-23 04:29",
-      "path": "/api/announce.php",
-      "known": true
-    },
-    {
-      "time": "2026-07-22 15:06",
-      "path": "/api/api_posts.php",
-      "known": true
-    },
-    {
-      "time": "2026-07-22 12:51",
-      "path": "/db.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-22 12:51",
-      "path": "/ai.php",
-      "known": true
-    },
-    {
-      "time": "2026-07-22 09:53",
-      "path": "/ingest.php",
-      "known": true
-    },
-    {
-      "time": "2026-07-22 09:03",
-      "path": "/disease_pages.php",
+      "time": "2026-07-24 07:38",
+      "path": "/weather.php",
       "known": false
     }
   ],
-  "unknown_changed_count": 14
+  "unknown_changed_count": 11
 }
