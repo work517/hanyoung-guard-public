@@ -1,21 +1,55 @@
 {
-  "fetched_at": "2026-07-28T15:40:29",
+  "fetched_at": "2026-07-29T09:14:39",
   "source": "guard.php",
-  "status": "suspect:6",
+  "status": "suspect:10",
   "error": null,
-  "scan_time": "2026-07-28 06:40",
+  "scan_time": "2026-07-29 00:14",
   "scan_path": "/home1/dolbom/public_html",
-  "files_scanned": 100,
+  "files_scanned": 103,
   "suspect": [
     "[  3] /api/family.php",
     "→ base64_decode\\s*\\(/i×1",
     "[  3] /facility_pages.php",
     "→ base64_decode\\s*\\(/i×1",
     "[  3] /worker_pages.php",
+    "→ base64_decode\\s*\\(/i×1",
+    "[  3] /posts.php",
+    "→ base64_decode\\s*\\(/i×1",
+    "[  3] /post.php",
     "→ base64_decode\\s*\\(/i×1"
   ],
   "random_named": [],
   "recent_changed": [
+    {
+      "time": "2026-07-28 10:15",
+      "path": "/handle.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-28 09:32",
+      "path": "/facility_pages.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-28 09:24",
+      "path": "/post.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-28 09:17",
+      "path": "/api/worker.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-28 09:16",
+      "path": "/worker.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-28 09:12",
+      "path": "/posts.php",
+      "known": false
+    },
     {
       "time": "2026-07-28 05:11",
       "path": "/api/posts.php",
@@ -30,51 +64,6 @@
       "time": "2026-07-27 22:56",
       "path": "/hub.php",
       "known": false
-    },
-    {
-      "time": "2026-07-26 14:22",
-      "path": "/disease_cron.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-26 14:15",
-      "path": "/grade_check_cron.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-26 14:15",
-      "path": "/_gen/topics_add.php",
-      "known": true
-    },
-    {
-      "time": "2026-07-26 14:14",
-      "path": "/config.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-26 14:14",
-      "path": "/api/facility_grade.php",
-      "known": true
-    },
-    {
-      "time": "2026-07-26 11:08",
-      "path": "/_gen/settings.php",
-      "known": true
-    },
-    {
-      "time": "2026-07-26 09:47",
-      "path": "/db.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-26 08:39",
-      "path": "/facility_grade.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-26 08:38",
-      "path": "/_gen/generate.php",
-      "known": true
     }
   ],
   "unknown_changed_count": 6
