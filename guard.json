@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-07-29T09:14:39",
+  "fetched_at": "2026-07-30T15:42:45",
   "source": "guard.php",
   "status": "suspect:10",
   "error": null,
-  "scan_time": "2026-07-29 00:14",
+  "scan_time": "2026-07-30 06:42",
   "scan_path": "/home1/dolbom/public_html",
-  "files_scanned": 103,
+  "files_scanned": 104,
   "suspect": [
     "[  3] /api/family.php",
     "→ base64_decode\\s*\\(/i×1",
@@ -21,18 +21,53 @@
   "random_named": [],
   "recent_changed": [
     {
-      "time": "2026-07-28 10:15",
-      "path": "/handle.php",
+      "time": "2026-07-30 05:18",
+      "path": "/worker_pages.php",
       "known": false
     },
     {
-      "time": "2026-07-28 09:32",
+      "time": "2026-07-30 05:18",
+      "path": "/worker.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-30 05:18",
       "path": "/facility_pages.php",
       "known": false
     },
     {
-      "time": "2026-07-28 09:24",
+      "time": "2026-07-30 05:18",
+      "path": "/facility.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-30 02:09",
       "path": "/post.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-30 01:46",
+      "path": "/promos.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-30 01:46",
+      "path": "/partners.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-29 02:49",
+      "path": "/api/facility.php",
+      "known": true
+    },
+    {
+      "time": "2026-07-29 02:18",
+      "path": "/facility_profile.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-28 10:15",
+      "path": "/handle.php",
       "known": false
     },
     {
@@ -41,30 +76,10 @@
       "known": true
     },
     {
-      "time": "2026-07-28 09:16",
-      "path": "/worker.php",
-      "known": false
-    },
-    {
       "time": "2026-07-28 09:12",
       "path": "/posts.php",
       "known": false
-    },
-    {
-      "time": "2026-07-28 05:11",
-      "path": "/api/posts.php",
-      "known": true
-    },
-    {
-      "time": "2026-07-28 04:25",
-      "path": "/api/facility.php",
-      "known": true
-    },
-    {
-      "time": "2026-07-27 22:56",
-      "path": "/hub.php",
-      "known": false
     }
   ],
-  "unknown_changed_count": 6
+  "unknown_changed_count": 10
 }
