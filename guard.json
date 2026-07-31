@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-07-30T15:42:45",
+  "fetched_at": "2026-07-31T17:12:34",
   "source": "guard.php",
   "status": "suspect:10",
   "error": null,
-  "scan_time": "2026-07-30 06:42",
+  "scan_time": "2026-07-31 08:12",
   "scan_path": "/home1/dolbom/public_html",
   "files_scanned": 104,
   "suspect": [
@@ -21,18 +21,28 @@
   "random_named": [],
   "recent_changed": [
     {
-      "time": "2026-07-30 05:18",
+      "time": "2026-07-30 10:00",
       "path": "/worker_pages.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-30 10:00",
+      "path": "/facility_pages.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-30 07:28",
+      "path": "/disease_cron.php",
+      "known": false
+    },
+    {
+      "time": "2026-07-30 07:06",
+      "path": "/autogen.php",
       "known": false
     },
     {
       "time": "2026-07-30 05:18",
       "path": "/worker.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-30 05:18",
-      "path": "/facility_pages.php",
       "known": false
     },
     {
@@ -54,32 +64,7 @@
       "time": "2026-07-30 01:46",
       "path": "/partners.php",
       "known": false
-    },
-    {
-      "time": "2026-07-29 02:49",
-      "path": "/api/facility.php",
-      "known": true
-    },
-    {
-      "time": "2026-07-29 02:18",
-      "path": "/facility_profile.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-28 10:15",
-      "path": "/handle.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-28 09:17",
-      "path": "/api/worker.php",
-      "known": true
-    },
-    {
-      "time": "2026-07-28 09:12",
-      "path": "/posts.php",
-      "known": false
     }
   ],
-  "unknown_changed_count": 10
+  "unknown_changed_count": 9
 }
