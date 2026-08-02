@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-08-01T15:41:06",
+  "fetched_at": "2026-08-02T16:16:40",
   "source": "guard.php",
   "status": "suspect:10",
   "error": null,
-  "scan_time": "2026-08-01 06:41",
+  "scan_time": "2026-08-02 07:16",
   "scan_path": "/home1/dolbom/public_html",
   "files_scanned": 104,
   "suspect": [
@@ -19,27 +19,6 @@
     "→ base64_decode\\s*\\(/i×1"
   ],
   "random_named": [],
-  "recent_changed": [
-    {
-      "time": "2026-07-30 10:00",
-      "path": "/worker_pages.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-30 10:00",
-      "path": "/facility_pages.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-30 07:28",
-      "path": "/disease_cron.php",
-      "known": false
-    },
-    {
-      "time": "2026-07-30 07:06",
-      "path": "/autogen.php",
-      "known": false
-    }
-  ],
-  "unknown_changed_count": 4
+  "recent_changed": [],
+  "unknown_changed_count": 0
 }
