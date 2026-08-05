@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-08-04T15:41:06",
+  "fetched_at": "2026-08-05T15:43:20",
   "source": "guard.php",
   "status": "suspect:10",
   "error": null,
-  "scan_time": "2026-08-04 06:41",
+  "scan_time": "2026-08-05 06:43",
   "scan_path": "/home1/dolbom/public_html",
   "files_scanned": 104,
   "suspect": [
@@ -19,6 +19,12 @@
     "→ base64_decode\\s*\\(/i×1"
   ],
   "random_named": [],
-  "recent_changed": [],
+  "recent_changed": [
+    {
+      "time": "2026-08-05 01:33",
+      "path": "/api/facilities.php",
+      "known": true
+    }
+  ],
   "unknown_changed_count": 0
 }
