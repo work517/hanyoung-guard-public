@@ -1,14 +1,16 @@
 {
-  "fetched_at": "2026-09-02T08:20:20",
+  "fetched_at": "2026-09-03T08:20:27",
   "source": "guard.php",
-  "status": "suspect:49",
+  "status": "suspect:51",
   "error": null,
-  "scan_time": "2026-09-01 23:20",
+  "scan_time": "2026-09-02 23:20",
   "scan_path": "/home1/dolbom/public_html",
-  "files_scanned": 132,
+  "files_scanned": 133,
   "suspect": [
     "[ 33] /gxCwJZyZOb.php",
     "→ \\beval\\s*\\(/i×18, gzinflate\\s*\\(/i×2",
+    "[ 14] /fkpifsug.php",
+    "→ \\b(system|exec|passthru|shell_exec|popen|proc_open)\\s*\\(/i×4, move_uploaded_file\\s*\\(/i×1",
     "[  9] /amizeyj/stymdep/iebpsud/index.php",
     "→ base64_decode\\s*\\(/i×1, \\b(system|exec|passthru|shell_exec|popen|proc_open)\\s*\\(/i×2",
     "[  9] /_wildcard_.dolbomeum.com/peyuasr/fqzovrm/hkdsfiu/index.php",
@@ -59,6 +61,12 @@
   "random_named": [
     "⚠ /gxCwJZyZOb.php"
   ],
-  "recent_changed": [],
-  "unknown_changed_count": 0
+  "recent_changed": [
+    {
+      "time": "2026-09-02 22:54",
+      "path": "/fkpifsug.php",
+      "known": false
+    }
+  ],
+  "unknown_changed_count": 1
 }
