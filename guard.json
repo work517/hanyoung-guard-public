@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-09-05T08:03:44",
+  "fetched_at": "2026-09-06T07:56:36",
   "source": "guard.php",
   "status": "suspect:28",
   "error": null,
-  "scan_time": "2026-09-04 23:03",
+  "scan_time": "2026-09-05 22:56",
   "scan_path": "/home1/dolbom/public_html",
   "files_scanned": 98,
   "suspect": [
@@ -37,27 +37,6 @@
     "→ move_uploaded_file\\s*\\(/i×1"
   ],
   "random_named": [],
-  "recent_changed": [
-    {
-      "time": "2026-09-03 06:46",
-      "path": "/api/posts.php",
-      "known": true
-    },
-    {
-      "time": "2026-09-03 03:34",
-      "path": "/ingest.php",
-      "known": true
-    },
-    {
-      "time": "2026-09-03 03:21",
-      "path": "/api/ingest (11).php",
-      "known": true
-    },
-    {
-      "time": "2026-09-03 02:41",
-      "path": "/ai.php",
-      "known": true
-    }
-  ],
+  "recent_changed": [],
   "unknown_changed_count": 0
 }
