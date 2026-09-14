@@ -1,19 +1,25 @@
 {
-  "fetched_at": "2026-09-14T08:11:40",
+  "fetched_at": "2026-09-15T08:52:50",
   "source": "guard.php",
-  "status": "suspect:70",
+  "status": "suspect:104",
   "error": null,
-  "scan_time": "2026-09-13 23:11",
+  "scan_time": "2026-09-14 23:52",
   "scan_path": "/home1/dolbom/public_html",
-  "files_scanned": 129,
+  "files_scanned": 154,
   "suspect": [
     "[ 14] /well-known/pki-validation/f/c/d/h/ojwthrnaqfm.php",
     "→ \\b(system|exec|passthru|shell_exec|popen|proc_open)\\s*\\(/i×4, move_uploaded_file\\s*\\(/i×1",
     "[ 14] /uploads/well-known/acme-challenge/g/c/d/a/mbiodgl/rifcmks/about.php",
     "→ \\b(system|exec|passthru|shell_exec|popen|proc_open)\\s*\\(/i×4, move_uploaded_file\\s*\\(/i×1",
+    "[ 12] /vjcoanl/pbjedft/zdy1btn/about.php",
+    "→ \\beval\\s*\\(/i×1, base64_decode\\s*\\(/i×1, 긴_base64덩어리",
     "[  9] /_wildcard_.dolbomeum.com/peyuasr/fqzovrm/hkdsfiu/index.php",
     "→ base64_decode\\s*\\(/i×1, \\b(system|exec|passthru|shell_exec|popen|proc_open)\\s*\\(/i×2",
     "[  9] /_wildcard_.dolbomeum.com/zlsymep/szgmq1t/ohedgpy/index.php",
+    "→ base64_decode\\s*\\(/i×1, \\b(system|exec|passthru|shell_exec|popen|proc_open)\\s*\\(/i×2",
+    "[  9] /_wildcard_.dolbomeum.com/obuphf1/pvtjeyu/aygqcwo/index.php",
+    "→ base64_decode\\s*\\(/i×1, \\b(system|exec|passthru|shell_exec|popen|proc_open)\\s*\\(/i×2",
+    "[  9] /dbohkur/hsrdnca/dkfj1gm/index.php",
     "→ base64_decode\\s*\\(/i×1, \\b(system|exec|passthru|shell_exec|popen|proc_open)\\s*\\(/i×2",
     "[  9] /boiampy/azsqflo/qdf1zlt/index.php",
     "→ base64_decode\\s*\\(/i×1, \\b(system|exec|passthru|shell_exec|popen|proc_open)\\s*\\(/i×2",
@@ -43,6 +49,14 @@
     "→ \\beval\\s*\\(/i×1",
     "[  5] /_wildcard_.dolbomeum.com/wmoheur/lpxdoga/hnagkqi/t.php",
     "→ \\beval\\s*\\(/i×1",
+    "[  5] /_wildcard_.dolbomeum.com/jhynlm1/uzvjocy/ufrewmt/index.php",
+    "→ \\beval\\s*\\(/i×1",
+    "[  5] /_wildcard_.dolbomeum.com/jhynlm1/uzvjocy/ufrewmt/pvt.php",
+    "→ \\beval\\s*\\(/i×1",
+    "[  5] /_wildcard_.dolbomeum.com/ydhaeus/auwqfe1/pkrbq1z/index.php",
+    "→ \\beval\\s*\\(/i×1",
+    "[  5] /_wildcard_.dolbomeum.com/ydhaeus/auwqfe1/pkrbq1z/priv0.php",
+    "→ \\beval\\s*\\(/i×1",
     "[  5] /uploads/well-known/acme-challenge/g/c/d/a/mbiodgl/rifcmks/index.php",
     "→ \\beval\\s*\\(/i×1",
     "[  5] /uploads/well-known/acme-challenge/g/c/d/a/mbiodgl/rifcmks/admin.php",
@@ -50,6 +64,14 @@
     "[  5] /nliay1x/pbirodn/d1hwagb/index.php",
     "→ \\beval\\s*\\(/i×1",
     "[  5] /nliay1x/pbirodn/d1hwagb/cvc.php",
+    "→ \\beval\\s*\\(/i×1",
+    "[  5] /uxnlfkb/qjkodfx/1wevknh/index.php",
+    "→ \\beval\\s*\\(/i×1",
+    "[  5] /uxnlfkb/qjkodfx/1wevknh/o.php",
+    "→ \\beval\\s*\\(/i×1",
+    "[  5] /bokegwq/1toydqb/tokpcmh/index.php",
+    "→ \\beval\\s*\\(/i×1",
+    "[  5] /bokegwq/1toydqb/tokpcmh/f0x.php",
     "→ \\beval\\s*\\(/i×1",
     "[  3] /api/family.php",
     "→ base64_decode\\s*\\(/i×1",
@@ -60,6 +82,8 @@
     "[  3] /post.php",
     "→ base64_decode\\s*\\(/i×1",
     "[  2] /fizs1xj/diypxkm/index.php",
+    "→ move_uploaded_file\\s*\\(/i×1",
+    "[  2] /vjcoanl/pbjedft/zdy1btn/index.php",
     "→ move_uploaded_file\\s*\\(/i×1",
     "[  2] /_wildcard_.dolbomeum.com/lcditez/rlxgdku/index.php",
     "→ move_uploaded_file\\s*\\(/i×1",
@@ -73,12 +97,108 @@
     "→ move_uploaded_file\\s*\\(/i×1",
     "[  2] /_wildcard_.dolbomeum.com/lxoezrb/cbaywkn/qabuvzl/index.php",
     "→ move_uploaded_file\\s*\\(/i×1",
+    "[  2] /_wildcard_.dolbomeum.com/jhynlm1/uzvjocy/index.php",
+    "→ move_uploaded_file\\s*\\(/i×1",
+    "[  2] /_wildcard_.dolbomeum.com/ydhaeus/auwqfe1/index.php",
+    "→ move_uploaded_file\\s*\\(/i×1",
+    "[  2] /_wildcard_.dolbomeum.com/zgiutd1/dazvwbx/vz1doax/index.php",
+    "→ move_uploaded_file\\s*\\(/i×1",
     "[  2] /nliay1x/pbirodn/index.php",
     "→ move_uploaded_file\\s*\\(/i×1",
     "[  2] /thwqmdf/ruflsmi/u1qfsyc/index.php",
+    "→ move_uploaded_file\\s*\\(/i×1",
+    "[  2] /uxnlfkb/qjkodfx/index.php",
+    "→ move_uploaded_file\\s*\\(/i×1",
+    "[  2] /bokegwq/1toydqb/index.php",
     "→ move_uploaded_file\\s*\\(/i×1"
   ],
   "random_named": [],
-  "recent_changed": [],
-  "unknown_changed_count": 0
+  "recent_changed": [
+    {
+      "time": "2026-09-14 21:19",
+      "path": "/vjcoanl/pbjedft/zdy1btn/about.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/vjcoanl/pbjedft/zdy1btn/index.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/uxnlfkb/qjkodfx/index.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/uxnlfkb/qjkodfx/1wevknh/o.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/uxnlfkb/qjkodfx/1wevknh/index.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/dbohkur/hsrdnca/dkfj1gm/index.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/bokegwq/1toydqb/tokpcmh/index.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/bokegwq/1toydqb/tokpcmh/f0x.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/bokegwq/1toydqb/index.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/_wildcard_.dolbomeum.com/zgiutd1/dazvwbx/vz1doax/index.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/_wildcard_.dolbomeum.com/ydhaeus/auwqfe1/pkrbq1z/priv0.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/_wildcard_.dolbomeum.com/ydhaeus/auwqfe1/pkrbq1z/index.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/_wildcard_.dolbomeum.com/ydhaeus/auwqfe1/index.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/_wildcard_.dolbomeum.com/obuphf1/pvtjeyu/aygqcwo/index.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/_wildcard_.dolbomeum.com/jhynlm1/uzvjocy/ufrewmt/pvt.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/_wildcard_.dolbomeum.com/jhynlm1/uzvjocy/ufrewmt/index.php",
+      "known": false
+    },
+    {
+      "time": "2026-09-14 06:54",
+      "path": "/_wildcard_.dolbomeum.com/jhynlm1/uzvjocy/index.php",
+      "known": false
+    }
+  ],
+  "unknown_changed_count": 17
 }
