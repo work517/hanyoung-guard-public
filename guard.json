@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-09-16T08:32:08",
+  "fetched_at": "2026-09-17T08:39:29",
   "source": "guard.php",
   "status": "suspect:162",
   "error": null,
-  "scan_time": "2026-09-15 23:32",
+  "scan_time": "2026-09-16 23:39",
   "scan_path": "/home1/dolbom/public_html",
   "files_scanned": 195,
   "suspect": [
@@ -316,92 +316,7 @@
       "time": "2026-09-15 07:36",
       "path": "/vjcoanl/pbjedft/zdy1btn/admin.php",
       "known": false
-    },
-    {
-      "time": "2026-09-14 21:19",
-      "path": "/vjcoanl/pbjedft/zdy1btn/about.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/vjcoanl/pbjedft/zdy1btn/index.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/uxnlfkb/qjkodfx/index.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/uxnlfkb/qjkodfx/1wevknh/o.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/uxnlfkb/qjkodfx/1wevknh/index.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/dbohkur/hsrdnca/dkfj1gm/index.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/bokegwq/1toydqb/tokpcmh/index.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/bokegwq/1toydqb/tokpcmh/f0x.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/bokegwq/1toydqb/index.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/_wildcard_.dolbomeum.com/zgiutd1/dazvwbx/vz1doax/index.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/_wildcard_.dolbomeum.com/ydhaeus/auwqfe1/pkrbq1z/priv0.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/_wildcard_.dolbomeum.com/ydhaeus/auwqfe1/pkrbq1z/index.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/_wildcard_.dolbomeum.com/ydhaeus/auwqfe1/index.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/_wildcard_.dolbomeum.com/obuphf1/pvtjeyu/aygqcwo/index.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/_wildcard_.dolbomeum.com/jhynlm1/uzvjocy/ufrewmt/pvt.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/_wildcard_.dolbomeum.com/jhynlm1/uzvjocy/ufrewmt/index.php",
-      "known": false
-    },
-    {
-      "time": "2026-09-14 06:54",
-      "path": "/_wildcard_.dolbomeum.com/jhynlm1/uzvjocy/index.php",
-      "known": false
     }
   ],
-  "unknown_changed_count": 46
+  "unknown_changed_count": 29
 }
