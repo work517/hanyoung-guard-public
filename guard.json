@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-09-20T08:09:21",
+  "fetched_at": "2026-09-21T08:15:58",
   "source": "guard.php",
   "status": "suspect:10",
   "error": null,
-  "scan_time": "2026-09-19 23:09",
+  "scan_time": "2026-09-20 23:15",
   "scan_path": "/home1/dolbom/public_html",
   "files_scanned": 84,
   "suspect": [
@@ -19,12 +19,6 @@
     "→ base64_decode\\s*\\(/i×1"
   ],
   "random_named": [],
-  "recent_changed": [
-    {
-      "time": "2026-09-18 00:21",
-      "path": "/watch_8d2d02bb.php",
-      "known": false
-    }
-  ],
-  "unknown_changed_count": 1
+  "recent_changed": [],
+  "unknown_changed_count": 0
 }
