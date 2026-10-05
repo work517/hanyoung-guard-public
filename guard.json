@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-04T08:47:18",
+  "fetched_at": "2026-10-05T08:57:43",
   "source": "guard.php",
   "status": "suspect:10",
   "error": null,
-  "scan_time": "2026-10-03 23:47",
+  "scan_time": "2026-10-04 23:57",
   "scan_path": "/home1/dolbom/public_html",
   "files_scanned": 84,
   "suspect": [
