@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-10-08T10:02:07",
+  "fetched_at": "2026-10-09T10:14:17",
   "source": "guard.php",
   "status": "suspect:10",
   "error": null,
-  "scan_time": "2026-10-08 01:02",
+  "scan_time": "2026-10-09 01:14",
   "scan_path": "/home1/dolbom/public_html",
-  "files_scanned": 84,
+  "files_scanned": 85,
   "suspect": [
     "[ 24] /watch_8d2d02bb.php",
     "→ \\beval\\s*\\(/i×1, gzinflate\\s*\\(/i×1, base64_decode\\s*\\(/i×1, \\b(system|exec|passthru|shell_exec|popen|proc_open)\\s*\\(/i×4",
@@ -19,6 +19,12 @@
     "→ base64_decode\\s*\\(/i×1"
   ],
   "random_named": [],
-  "recent_changed": [],
-  "unknown_changed_count": 0
+  "recent_changed": [
+    {
+      "time": "2026-10-08 13:56",
+      "path": "/.well-known/pki-validation/sending.php",
+      "known": false
+    }
+  ],
+  "unknown_changed_count": 1
 }
