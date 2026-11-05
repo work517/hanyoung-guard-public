@@ -1,16 +1,14 @@
 {
-  "fetched_at": "2026-11-04T10:25:15",
+  "fetched_at": "2026-11-05T10:28:51",
   "source": "guard.php",
-  "status": "suspect:13",
+  "status": "suspect:10",
   "error": null,
-  "scan_time": "2026-11-04 01:25",
+  "scan_time": "2026-11-05 01:28",
   "scan_path": "/home1/dolbom/public_html",
-  "files_scanned": 86,
+  "files_scanned": 85,
   "suspect": [
     "[ 24] /watch_8d2d02bb.php",
     "→ \\beval\\s*\\(/i×1, gzinflate\\s*\\(/i×1, base64_decode\\s*\\(/i×1, \\b(system|exec|passthru|shell_exec|popen|proc_open)\\s*\\(/i×4",
-    "[  5] /dMsGuzt7rj.php",
-    "→ \\beval\\s*\\(/i×1",
     "[  3] /post.php",
     "→ base64_decode\\s*\\(/i×1",
     "[  3] /facility_pages.php",
@@ -20,15 +18,7 @@
     "[  3] /api/family.php",
     "→ base64_decode\\s*\\(/i×1"
   ],
-  "random_named": [
-    "⚠ /dMsGuzt7rj.php"
-  ],
-  "recent_changed": [
-    {
-      "time": "2026-11-03 12:10",
-      "path": "/dMsGuzt7rj.php",
-      "known": false
-    }
-  ],
-  "unknown_changed_count": 1
+  "random_named": [],
+  "recent_changed": [],
+  "unknown_changed_count": 0
 }
